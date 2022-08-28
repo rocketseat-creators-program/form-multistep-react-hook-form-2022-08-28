@@ -1,0 +1,29 @@
+{
+  "name": "poc",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@hookform/resolvers": "^2.9.7",
+    "@mui/icons-material": "^5.10.2",
+    "@mui/material": "^5.10.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.34.2",
+    "zod": "^3.18.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.1",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.7"
+  }
+}
